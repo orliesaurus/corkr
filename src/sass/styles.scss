@@ -113,6 +113,7 @@
   left: 1rem;
   bottom: 2.5rem;
   height: 7.5rem;
+  padding-top: 0.5rem;
 
   p {
     margin: 0;
@@ -157,7 +158,6 @@
 }
 
 .shield {
-  background-image: url('../img/shield-green-x2.png');
   background-repeat: no-repeat;
   background-size: 100%;
   width: 7.2rem;
@@ -166,11 +166,23 @@
   transition: all 0.2s 0.1s;
 }
 
+.shield-green {
+  background-image: url('../img/shield-green-x2.png');
+}
+
+.shield-orange {
+  background-image: url('../img/shield-orange-x2.png');
+}
+
+.shield-red {
+  background-image: url('../img/shield-red-x2.png');
+}
+
 .item-text {
   margin-left: 8.5rem;
   opacity: 0;
   transition: all 0.5s 0.1s;
-  padding-top: 0.75rem;
+  // padding-top: 0.75rem;
 }
 
 .url {
@@ -179,11 +191,13 @@
 }
 
 .description {
+  color: $ink-secondary;
   margin: 0;
 }
 
 .rating-label {
   position: relative;
+  color: $ink-secondary;
   top: -0.25rem;
 }
 
@@ -194,4 +208,39 @@
 
 .rating-green {
   color: $green;
+}
+
+.rating-orange {
+  color: $orange;
+}
+
+.rating-red {
+  color: $red;
+}
+
+.help {
+  display: block;
+  font-size: $zeta;
+  margin-top: -0.15rem;
+}
+
+.marker-green,
+.marker-orange,
+.marker-red {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.marker-green {
+  background-image: url('../img/marker-green-x2.png');
+}
+
+.marker-orange {
+  background-image: url('../img/marker-orange-x2.png');
+}
+
+.marker-red {
+  background-image: url('../img/marker-red-x2.png');
 }
