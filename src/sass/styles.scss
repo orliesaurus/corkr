@@ -1,0 +1,131 @@
+//===============================================================================
+// IMPORTS
+//===============================================================================
+// define global variables
+@import "_global-variables.scss";
+
+// define timing functions
+@import "_timing-functions.scss";
+
+// define mixins & functions
+@import "_mixins.scss";
+
+// ! normalize.css v3.0.0 | MIT License | git.io/normalize
+@import "_normalize.scss";
+
+// leaflet.js styles
+@import "_leaflet.scss";
+
+// typographic styling
+@import "_typography.scss";
+
+// layout styles
+@import "_layout.scss";
+
+// form styling
+@import "_forms.scss";
+
+// button styling
+@import "_buttons.scss";
+
+// table styling
+@import "_tables.scss";
+
+// DEV STYLES - refactor later
+//===============================================================================
+.map-frame {
+  position: absolute;
+}
+
+.app-header {
+  position: fixed;
+  width: 100%;
+  height: 2.5rem;
+  z-index: 999;
+  background-color: $paper;
+  transition: all 0.2s;
+}
+
+.app-header.active {
+  height: 15rem;
+
+  .header-logo {
+    left: -12.75rem;
+  }
+
+  .info-content {
+    display: block;
+  }
+
+  .info-btn {
+    background-color: $paper;
+    background-image: url('../img/close-x2.png');
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+.logo {
+  @include hide-text;
+
+  background-size: 100% 100%;
+  margin: 0;
+  position: absolute;
+}
+
+.header-logo {
+  background-image: url('../img/logo-small-x2.png');
+  width: 7rem;
+  height: 2rem;
+  left: 1rem;
+  bottom: 0.25rem;
+  transition: all 0.2s;
+}
+
+.info-logo {
+  background-image: url('../img/logo-large-x2.png');
+  width: 14rem;
+  height: 4rem;
+  left: 0;
+  top: -4rem;
+  transition: all 0.25s;
+}
+
+.info-btn {
+  background-color: mix( $paper, $ink-secondary, 85 );
+  background-image: url('../img/info-x2.png');
+  background-repeat: no-repeat;
+  background-size: 1.5rem 1.5rem;
+  background-position: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: background-color 0.25s;
+
+  &:hover {
+    background-color: mix( $paper, $ink-secondary, 75 );   
+  }
+}
+
+.info-content {
+  display: none;
+  max-width: 40rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 2.5rem;
+  height: 7.5rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

@@ -12,3 +12,24 @@ We therefore created an interactive dashboard that lists what .gov.uk websites a
 Our aim is to raise awareness on web-security and the importance of maintaining websites, especially because these are government websites.
 
 We've only found these many vulnerabilities but we're sure there are more out there.
+
+---
+
+### GULP STUFF
+
+Install [node](http://nodejs.org/) & [gulp](http://gulpjs.com/)
+
+`brew install node`, `npm install -g gulp`
+
+Install packages
+
+`npm i`
+
+Build assets (only required once)
+
+`gulp build`
+
+Run Gulp
+(Starts local server, LiveReload, SASS compilation, JS hinting & minification, image minification)
+
+`gulp`
