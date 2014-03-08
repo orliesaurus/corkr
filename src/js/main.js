@@ -4,6 +4,11 @@ $( document ).ready( function() {
     $( '.app-header' ).toggleClass( 'active' );
   });
 
+  // just so I can trigger bottom panel
+  $( '.header-logo' ).click( function() {
+    $( '.item-info' ).toggleClass( 'active' );
+  });
+
   var map = L.map('map', {
     zoomControl: false,
     attributionControl: false,
