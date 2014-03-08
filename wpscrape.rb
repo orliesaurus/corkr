@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'ap'
 
 ################ GLOBALS ################
 
@@ -57,7 +58,7 @@ def parse_wp_vulnerability(output, information)
 	vulnerabilities.each { |problem|
 		infos = problem.split(/\|\*/).delete_if{ |value| value == "\n"}
 		vuln = get_vuln_hash(infos)
-		output[:score] += vuln.length
+		output[:score] += 1
 		output["wp_vulnerability".to_sym] << vuln
 	}
 end
@@ -85,11 +86,13 @@ def parse_plugin_vulnerability(output, information)
 					fixed = vuln["fixed".to_sym]
 					if fixed
 						name = plugin_hash["name".to_sym]
-						version = name[/\s([\d\.?])*\s/,1]
-						broken = Gem::Version.new(fixed) > Gem::Version.new(version)
-						if broken
-							vuln["broken".to_sym] = true 
-							output[:score] += 1
+					  version = name[/\sv?([\d\.?]+)\s?/,1]
+					  if version
+							broken = Gem::Version.new(fixed) > Gem::Version.new(version)
+							if broken
+								vuln["broken".to_sym] = true 
+								output[:score] += 1
+							end
 						end
 					end
 				rescue
@@ -132,7 +135,7 @@ def elaborate(data, useful_names)
 					add_to_data(output, key_name, content.strip)
 				end
 			else
-				if version = information[/^WordPress\sversion\s([\d\.]*)\s/,1]
+				if version = information[/^WordPress\sversion\s([\d\.]+)\s/,1]
 			 		output["wp_version".to_sym] = version
 				end
 			end
