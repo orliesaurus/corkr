@@ -57,6 +57,7 @@ def parse_wp_vulnerability(output, information)
 	vulnerabilities.each { |problem|
 		infos = problem.split(/\|\*/).delete_if{ |value| value == "\n"}
 		vuln = get_vuln_hash(infos)
+		output[:score] += vuln.length
 		output["wp_vulnerability".to_sym] << vuln
 	}
 end
@@ -86,7 +87,10 @@ def parse_plugin_vulnerability(output, information)
 						name = plugin_hash["name".to_sym]
 						version = name[/\s([\d\.?])*\s/,1]
 						broken = Gem::Version.new(fixed) > Gem::Version.new(version)
-						vuln["broken".to_sym] = true
+						if broken
+							vuln["broken".to_sym] = true 
+							output[:score] += 1
+						end
 					end
 				rescue
 					#No problem if it fails...
@@ -104,6 +108,7 @@ end
 
 def elaborate(data, useful_names)
 	output = {}
+	output[:score] = 0
 	output["headers".to_sym] = []
 	output["wp_vulnerability".to_sym] = []
 	output["plugin_vulnerability".to_sym] = []
