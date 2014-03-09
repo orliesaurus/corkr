@@ -38,6 +38,21 @@ $( document ).ready( function() {
   L.marker([53, -1], {icon: markerOrange}).addTo(map);
 
   L.marker([54, -1], {icon: markerRed}).addTo(map);
+  $.getJSON( "js/pretty.json", function( data ) {
 
+    for(var i=0; i<data.length; i++)
+    {
+      //latlong = [data[i].latlong].pop();
+      ll = data[i].latlong;
+      latlong = ll.split(',');
+      console.log(latlong);
+      name = data[i].name;
+      score = data[i].score;
+      url = data[i].url;
+
+      L.marker(latlong, {riseOnHover:'true',title:name}).addTo(map);
+
+    }
+  });
 });
 

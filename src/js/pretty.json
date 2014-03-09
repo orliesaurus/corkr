@@ -1,0 +1,1136 @@
+[
+  {
+    "url": "akeleyparishcouncil.gov.uk.json",
+    "name": "Akeley Parish Council",
+    "latlong": "52.033, -0.97",
+    "score": 6
+  },
+  {
+    "url": "alcester-tc.gov.uk.json",
+    "name": "Alcester Town Council",
+    "latlong": "52.215311, -1.867605",
+    "score": -1
+  },
+  {
+    "url": "aldenham-pc.gov.uk.json",
+    "name": "Aldenham Parish Council",
+    "latlong": "51.6723, -0.3546",
+    "score": -1
+  },
+  {
+    "url": "amble.gov.uk.json",
+    "name": "Amble",
+    "latlong": "55.331461, -1.585261",
+    "score": 0
+  },
+  {
+    "url": "argoedcommunitycouncil.gov.uk.json",
+    "name": "Argoed Community Council",
+    "latlong": "51.690569, -3.191349",
+    "score": 0
+  },
+  {
+    "url": "armagh.gov.uk.json",
+    "name": "Armagh",
+    "latlong": "54.34875, -6.65161",
+    "score": 8
+  },
+  {
+    "url": "astoncantlow-pc.gov.uk.json",
+    "name": "Aston Cantlow Parish Council",
+    "latlong": "52.224052, -1.7737004",
+    "score": -1
+  },
+  {
+    "url": "ayrshire-jsu.gov.uk.json",
+    "name": "Aurshire",
+    "latlong": "52.854331, -2.8399524",
+    "score": 4
+  },
+  {
+    "url": "badgerfarmparishcouncil.gov.uk.json",
+    "name": "Badger Farm Parish Council",
+    "latlong": "51.0477683, -1.3349693",
+    "score": 3
+  },
+  {
+    "url": "beaconsfieldtowncouncil.gov.uk.json",
+    "name": "Beaconsfield Town Council",
+    "latlong": "51.602396, -0.6442409",
+    "score": -1
+  },
+  {
+    "url": "betterregulation.gov.uk.json",
+    "name": "Better Regulation",
+    "latlong": "51.498772, -0.1309738",
+    "score": 0
+  },
+  {
+    "url": "birminghamprepared.gov.uk.json",
+    "name": "Birmingham Prepared",
+    "latlong": "52.486243, -1.890401",
+    "score": -1
+  },
+  {
+    "url": "blog.gov.uk.json",
+    "name": "blog.gov.uk",
+    "latlong": "51.5035094, -0.1265631",
+    "score": 0
+  },
+  {
+    "url": "brackleynorthants-tc.gov.uk.json",
+    "name": "Brackley Northants Town Council",
+    "latlong": "52.027411, -1.143152",
+    "score": 8
+  },
+  {
+    "url": "bramshottandliphook-pc.gov.uk.json",
+    "name": "Bramshott & Liphook Parish Council",
+    "latlong": "51.07661, -0.801777",
+    "score": 0
+  },
+  {
+    "url": "brayparishcouncil.gov.uk.json",
+    "name": "Bray Parish Council",
+    "latlong": "51.041762, -2.265503",
+    "score": -1
+  },
+  {
+    "url": "bridgnorthtowncouncil.gov.uk.json",
+    "name": "Bridgenorth Town Council",
+    "latlong": "53.3448245, -3.1090485",
+    "score": 3
+  },
+  {
+    "url": "bridgwatertowncouncil.gov.uk.json",
+    "name": "Bridgewater Town Council",
+    "latlong": "54.5031468, -1.315284",
+    "score": 2
+  },
+  {
+    "url": "buckfastleigh.gov.uk.json",
+    "name": "Buckfast Leigh",
+    "latlong": "50.481799, -3.779342",
+    "score": 5
+  },
+  {
+    "url": "bude-stratton.gov.uk.json",
+    "name": "Bude Stratton",
+    "latlong": "50.8302205, -4.543689",
+    "score": -1
+  },
+  {
+    "url": "burrator.gov.uk.json",
+    "name": "Currator",
+    "latlong": "50.5000467, -4.0361128",
+    "score": 3
+  },
+  {
+    "url": "callington-tc.gov.uk.json",
+    "name": "Callington Town Council",
+    "latlong": "50.502332, -4.315735",
+    "score": 0
+  },
+  {
+    "url": "camelford-tc.gov.uk.json",
+    "name": "Camelford Town Council",
+    "latlong": "50.622055, -4.682364",
+    "score": 0
+  },
+  {
+    "url": "campbell-park.gov.uk.json",
+    "name": "Campbell Park",
+    "latlong": "52.0301356, -0.7678909",
+    "score": 0
+  },
+  {
+    "url": "cecsnet.gov.uk.json",
+    "name": "Association of County Chief Executives Advisory Group",
+    "latlong": "51.5219381, -0.1013832",
+    "score": 5
+  },
+  {
+    "url": "chard.gov.uk.json",
+    "name": "Chard",
+    "latlong": "50.8697919, -2.963316",
+    "score": 8
+  },
+  {
+    "url": "CharltonKingsParishCouncil.gov.uk.json",
+    "name": "Charlton Kings Parish Council",
+    "latlong": "51.882693, -2.039939",
+    "score": 1
+  },
+  {
+    "url": "churchdown-pc.gov.uk.json",
+    "name": "Churchdown Parish Council",
+    "latlong": "51.8772949, -2.16865",
+    "score": 1
+  },
+  {
+    "url": "civilservice.gov.uk.json",
+    "name": "Civil Services",
+    "latlong": "51.5035094, -0.1265631",
+    "score": 1
+  },
+  {
+    "url": "colby-banningham-pc.gov.uk.json",
+    "name": "Colby Banningham",
+    "latlong": "52.8174438, 1.2873209",
+    "score": 0
+  },
+  {
+    "url": "colefordtowncouncil.gov.uk.json",
+    "name": "Coleford Town Council",
+    "latlong": "51.7934409, -2.6174728",
+    "score": 10
+  },
+  {
+    "url": "combemartin-pc.gov.uk.json",
+    "name": "Combemartin Parish Council",
+    "latlong": "51.4467593, -0.2104858",
+    "score": 8
+  },
+  {
+    "url": "comptondundon-pc.gov.uk.json",
+    "name": "Comton Dundon Parish Council",
+    "latlong": "51.091965, -2.730759",
+    "score": 1
+  },
+  {
+    "url": "crewetowncouncil.gov.uk.json",
+    "name": "Crewe Town Council",
+    "latlong": "53.100405, -2.4438209",
+    "score": 0
+  },
+  {
+    "url": "cropwellbishop-pc.gov.uk.json",
+    "name": "Cropwell Bishop Town Council",
+    "latlong": "52.912331, -0.984208",
+    "score": 1
+  },
+  {
+    "url": "culturalpropertyadvice.gov.uk.json",
+    "name": "Cultural Property Advice",
+    "latlong": "52.7073029, -2.7553268",
+    "score": 1
+  },
+  {
+    "url": "cwmbran.gov.uk.json",
+    "name": "Cwmbran",
+    "latlong": "51.654066, -3.027569",
+    "score": 0
+  },
+  {
+    "url": "defra.gov.uk.json",
+    "name": "DEFRA",
+    "latlong": "51.4955834, -0.126134",
+    "score": -1
+  },
+  {
+    "url": "devonaudit.gov.uk.json",
+    "name": "Devon Audit",
+    "latlong": "50.716794, -3.5252539",
+    "score": 0
+  },
+  {
+    "url": "ducklingtonparishcouncil.gov.uk.json",
+    "name": "Ducklington Parish Council",
+    "latlong": "51.76534, -1.475771",
+    "score": -1
+  },
+  {
+    "url": "eastgrinstead.gov.uk.json",
+    "name": "East Grinstead",
+    "latlong": "51.128742, -0.014468",
+    "score": 0
+  },
+  {
+    "url": "fairfordtowncouncil.gov.uk.json",
+    "name": "Fairford Town Council",
+    "latlong": "51.707537, -1.785135",
+    "score": 15
+  },
+  {
+    "url": "finedonparishcouncil.gov.uk.json",
+    "name": "Finedon Parish Council",
+    "latlong": "52.339868, -0.645921",
+    "score": 2
+  },
+  {
+    "url": "fordingbridge.gov.uk.json",
+    "name": "Fordingbridge ",
+    "latlong": "50.9258359, -1.792526",
+    "score": 0
+  },
+  {
+    "url": "frensham-pc.gov.uk.json",
+    "name": "Frensham Parish Council",
+    "latlong": "51.166393, -0.796032",
+    "score": -1
+  },
+  {
+    "url": "frodsham.gov.uk.json",
+    "name": "Frodsham",
+    "latlong": "53.297083, -2.729463",
+    "score": -1
+  },
+  {
+    "url": "gerrardscross.gov.uk.json",
+    "name": "Gerrads Cross",
+    "latlong": "51.582362, -0.5575",
+    "score": 8
+  },
+  {
+    "url": "great-aycliffe.gov.uk.json",
+    "name": "Great Aycliffe",
+    "latlong": "54.615988, -1.575577",
+    "score": -1
+  },
+  {
+    "url": "gwineargwithian-pc.gov.uk.json",
+    "name": "Gwineargwithian Parish Council",
+    "latlong": "50.1939135, -5.3573621",
+    "score": 0
+  },
+  {
+    "url": "handiprepared.gov.uk.json",
+    "name": "HandiPrepared",
+    "latlong": "57.4707164, -4.1918351",
+    "score": 1
+  },
+  {
+    "url": "hatfield-herts.gov.uk.json",
+    "name": "Hatfield Herts",
+    "latlong": "51.763366, -0.22309",
+    "score": 1
+  },
+  {
+    "url": "henley-in-arden-pc.gov.uk.json",
+    "name": "Henley In Arden Parish Council",
+    "latlong": "52.292549, -1.779866",
+    "score": -1
+  },
+  {
+    "url": "hertfordheath.gov.uk.json",
+    "name": "Hertford Heath",
+    "latlong": "51.7831561, -0.0438358",
+    "score": 0
+  },
+  {
+    "url": "highways.gov.uk.json",
+    "name": "Highways Agency",
+    "latlong": "53.7884065, -1.5477387",
+    "score": -1
+  },
+  {
+    "url": "hmcpsi.gov.uk.json",
+    "name": "Crown Prosecution",
+    "latlong": "53.9604144, -1.075007",
+    "score": 0
+  },
+  {
+    "url": "holmevalleyparishcouncil.gov.uk.json",
+    "name": "Holme Valley Parish Council",
+    "latlong": "53.5606958, -1.8118739",
+    "score": 6
+  },
+  {
+    "url": "horsmonden-pc.gov.uk.json",
+    "name": "Horsmonden Parish Council",
+    "latlong": "51.139154, 0.4301213",
+    "score": 0
+  },
+  {
+    "url": "hucclecotepc.gov.uk.json",
+    "name": "Hucclecote Parish Council",
+    "latlong": "51.8612623, -2.1760016",
+    "score": -1
+  },
+  {
+    "url": "ilfracombetowncouncil.gov.uk.json",
+    "name": "Ilfracombe Town Council",
+    "latlong": "51.205163, -4.126762",
+    "score": 1
+  },
+  {
+    "url": "ilminster.gov.uk.json",
+    "name": "Ilminster",
+    "latlong": "50.928494, -2.911062",
+    "score": 1
+  },
+  {
+    "url": "info4local.gov.uk.json",
+    "name": "info4local",
+    "latlong": "51.50, 0.13",
+    "score": 8
+  },
+  {
+    "url": "irthlingborough-tc.gov.uk.json",
+    "name": "Irthlingborough Town Council",
+    "latlong": "52.3256, -0.613059",
+    "score": 8
+  },
+  {
+    "url": "kendaltowncouncil.gov.uk.json",
+    "name": "Kendal Town Council",
+    "latlong": "54.328006, -2.74629",
+    "score": 8
+  },
+  {
+    "url": "knowsleytowncouncil.gov.uk.json",
+    "name": "Knowsley Town Council",
+    "latlong": "53.454594, -2.852907",
+    "score": 6
+  },
+  {
+    "url": "legsb.gov.uk.json",
+    "name": "leGSB",
+    "latlong": "51.5372768, -0.9010693",
+    "score": -1
+  },
+  {
+    "url": "longstratton-pc.gov.uk.json",
+    "name": "Longstratton Parish Council",
+    "latlong": "52.4966537, 1.1640932",
+    "score": 0
+  },
+  {
+    "url": "loughtonmk-pc.gov.uk.json",
+    "name": "Loughton Parish Council",
+    "latlong": "52.0301356, -0.7678909",
+    "score": -1
+  },
+  {
+    "url": "lydiateparishcouncil.gov.uk.json",
+    "name": "Lydiate Parish Council",
+    "latlong": "53.529677, -2.953688",
+    "score": -1
+  },
+  {
+    "url": "marchtowncouncil.gov.uk.json",
+    "name": "Marchtown Council",
+    "latlong": "52.551716, 0.088622",
+    "score": 5
+  },
+  {
+    "url": "marshgibbon-pc.gov.uk.json",
+    "name": "Marsh Gibbon Parish Council",
+    "latlong": "51.901115, -1.058977",
+    "score": 8
+  },
+  {
+    "url": "merseysidewda.gov.uk.json",
+    "name": "Mersyside WDA",
+    "latlong": "53.3976041, -2.9436643",
+    "score": 6
+  },
+  {
+    "url": "minstead.gov.uk.json",
+    "name": "Minstead",
+    "latlong": "50.900944, -1.597883",
+    "score": 1
+  },
+  {
+    "url": "monmouthshire.gov.uk.json",
+    "name": "Monmouthshire",
+    "latlong": "51.774928, -2.8759245",
+    "score": 2
+  },
+  {
+    "url": "morecambe.gov.uk.json",
+    "name": "Morecambe",
+    "latlong": "51.8964249, -0.4760102",
+    "score": -1
+  },
+  {
+    "url": "Morpeth-tc.gov.uk.json",
+    "name": "Morpeth Town Council",
+    "latlong": "55.16875, -1.687493",
+    "score": -1
+  },
+  {
+    "url": "mumbles.gov.uk.json",
+    "name": "Mumbles",
+    "latlong": "51.575906, -3.999879",
+    "score": 0
+  },
+  {
+    "url": "nantwichtowncouncil.gov.uk.json",
+    "name": "Nantwich Town Council",
+    "latlong": "53.06571, -2.5206607",
+    "score": -1
+  },
+  {
+    "url": "nao.gov.uk.json",
+    "name": "National Audit Office",
+    "latlong": "51.4916783, -0.1485413",
+    "score": 0
+  },
+  {
+    "url": "nash-bucks-pc.gov.uk.json",
+    "name": "Nash Bucks Parish Council",
+    "latlong": "51.998149, -0.86048",
+    "score": -1
+  },
+  {
+    "url": "nelsontowncouncil.gov.uk.json",
+    "name": "Nelson Town Council",
+    "latlong": "53.835187, -2.219377",
+    "score": 1
+  },
+  {
+    "url": "newmiltontowncouncil.gov.uk.json",
+    "name": "New Milton Town Council",
+    "latlong": "50.7531235, -1.6550806",
+    "score": 7
+  },
+  {
+    "url": "northclainesparishcouncil.gov.uk.json",
+    "name": "North Claine Parish Council",
+    "latlong": "52.2277474, -2.2185812",
+    "score": 5
+  },
+  {
+    "url": "northleach.gov.uk.json",
+    "name": "Northleach",
+    "latlong": "51.830777, -1.837254",
+    "score": -1
+  },
+  {
+    "url": "northweald-pc.gov.uk.json",
+    "name": "Northweald Parish Council",
+    "latlong": "51.4296831, -0.3096604",
+    "score": 8
+  },
+  {
+    "url": "northyorkshire-pcc.gov.uk.json",
+    "name": "North Yourshire PCC",
+    "latlong": "54.2503595, -1.4708553",
+    "score": 3
+  },
+  {
+    "url": "nottinghamshire-probation.gov.uk.json",
+    "name": "Nottinghamshire Probation",
+    "latlong": "53.1285044, -0.9030999",
+    "score": 8
+  },
+  {
+    "url": "ofqual.gov.uk.json",
+    "name": "OFQUAL",
+    "latlong": "52.4032403, -1.552399",
+    "score": 0
+  },
+  {
+    "url": "ollerton-tc.gov.uk.json",
+    "name": "Ollerton Town Council",
+    "latlong": "53.204098, -1.020581",
+    "score": 5
+  },
+  {
+    "url": "padstow-tc.gov.uk.json",
+    "name": "Padstow Town Council",
+    "latlong": "50.5750903, -4.9350462",
+    "score": 0
+  },
+  {
+    "url": "paessex.gov.uk.json",
+    "name": "PA Essex",
+    "latlong": "51.7668369, 0.4757762",
+    "score": 8
+  },
+  {
+    "url": "pangbourne-pc.gov.uk.json",
+    "name": "Pangbourne Parish Council",
+    "latlong": "51.482245, -1.087156",
+    "score": 8
+  },
+  {
+    "url": "petersfield-tc.gov.uk.json",
+    "name": "Peterfield Town Council",
+    "latlong": "51.007591, -0.93899",
+    "score": 8
+  },
+  {
+    "url": "pickering.gov.uk.json",
+    "name": "Pickering",
+    "latlong": "54.243925, -0.777553",
+    "score": 1
+  },
+  {
+    "url": "pontypriddtowncouncil.gov.uk.json",
+    "name": "Pontypridd Town Council",
+    "latlong": "51.600774, -3.342314",
+    "score": -1
+  },
+  {
+    "url": "prescot-tc.gov.uk.json",
+    "name": "Prescot Town Council",
+    "latlong": "53.428674, -2.804564",
+    "score": 6
+  },
+  {
+    "url": "publow-with-pensford-pc.gov.uk.json",
+    "name": "Publow with Pensford Parish Council",
+    "latlong": "51.375, -2.547",
+    "score": 1
+  },
+  {
+    "url": "quedgeley-pc.gov.uk.json",
+    "name": "Quedgeley Parish Council",
+    "latlong": "51.823669, -2.277564",
+    "score": 5
+  },
+  {
+    "url": "ramseyparkeston-pc.gov.uk.json",
+    "name": "Ramsey Parkeston Parish Council",
+    "latlong": "51.941456, 1.253086",
+    "score": -1
+  },
+  {
+    "url": "rippondenparishcouncil.gov.uk.json",
+    "name": "Ripponded Parish Council",
+    "latlong": "53.675254, -1.939549",
+    "score": 6
+  },
+  {
+    "url": "ruddingtonparishcouncil.gov.uk.json",
+    "name": "Ruddington Parish Council",
+    "latlong": "52.894929, -1.1515709",
+    "score": 0
+  },
+  {
+    "url": "ruralcommunities.gov.uk.json",
+    "name": "Rural Communities",
+    "latlong": "51.8644276, -2.2082462",
+    "score": -1
+  },
+  {
+    "url": "rushdentowncouncil.gov.uk.json",
+    "name": "Rushden Town Council",
+    "latlong": "52.289125, -0.600363",
+    "score": 8
+  },
+  {
+    "url": "secouncils.gov.uk.json",
+    "name": "SE Councils",
+    "latlong": "51.4051055, -0.3048565",
+    "score": 8
+  },
+  {
+    "url": "silverdale-pc-lancs.gov.uk.json",
+    "name": "Silverdale Parish Council",
+    "latlong": "54.167465, -2.826756",
+    "score": 6
+  },
+  {
+    "url": "skelton-york.gov.uk.json",
+    "name": "Skelton York",
+    "latlong": "53.998251, -1.129295",
+    "score": 8
+  },
+  {
+    "url": "sodburytowncouncil.gov.uk.json",
+    "name": "Sodbury Town Council",
+    "latlong": "51.5351659, -2.3909379",
+    "score": 1
+  },
+  {
+    "url": "somersetdrainageboards.gov.uk.json",
+    "name": "Somerset Drainage Boards",
+    "latlong": "51.0587013, -2.9499066",
+    "score": -1
+  },
+  {
+    "url": "sopley.gov.uk.json",
+    "name": "Sopley",
+    "latlong": "50.771157, -1.778658",
+    "score": 0
+  },
+  {
+    "url": "southern-ifca.gov.uk.json",
+    "name": "Southern Inshore Fisheries and Conservation Authorities",
+    "latlong": "50.7283344, -1.9267974",
+    "score": 1
+  },
+  {
+    "url": "sprowston-pc.gov.uk.json",
+    "name": "Sprowston Parish Council",
+    "latlong": "52.656354, 1.320607",
+    "score": 9
+  },
+  {
+    "url": "sprowston-tc.gov.uk.json",
+    "name": "Sprowston Town Council",
+    "latlong": "52.6306044, 1.3020255",
+    "score": 9
+  },
+  {
+    "url": "staffordshire-pcc.gov.uk.json",
+    "name": "Staffordshire PCC",
+    "latlong": "52.7697957, -2.1045243",
+    "score": -1
+  },
+  {
+    "url": "stamfordtowncouncil.gov.uk.json",
+    "name": "Stamford Town Council",
+    "latlong": "52.651282, -0.480216",
+    "score": 1
+  },
+  {
+    "url": "stannesonthesea-tc.gov.uk.json",
+    "name": "Stannes on the Sea",
+    "latlong": "53.7530451, -3.0290963",
+    "score": 8
+  },
+  {
+    "url": "stbriavels-pc.gov.uk.json",
+    "name": "St Briavels Parish Council",
+    "latlong": "51.7335489, -2.643101",
+    "score": 1
+  },
+  {
+    "url": "stcolumbmajor-tc.gov.uk.json",
+    "name": "St Columb Major Town Council",
+    "latlong": "50.4352079, -4.9396942",
+    "score": 0
+  },
+  {
+    "url": "stdavids.gov.uk.json",
+    "name": "St Davids",
+    "latlong": "51.881227, -5.265995",
+    "score": -1
+  },
+  {
+    "url": "steyningpc.gov.uk.json",
+    "name": "Steyning Parish Council",
+    "latlong": "50.887403, -0.326676",
+    "score": -1
+  },
+  {
+    "url": "stneots-tc.gov.uk.json",
+    "name": "St Neots Town Council",
+    "latlong": "52.2284859, -0.266069",
+    "score": 0
+  },
+  {
+    "url": "stokepogesparishcouncil.gov.uk.json",
+    "name": "Stoke Poges Parish Council",
+    "latlong": "51.54817, -0.582716",
+    "score": -1
+  },
+  {
+    "url": "street-pc.gov.uk.json",
+    "name": "Street Parish Council",
+    "latlong": "51.124679, -2.742919",
+    "score": 0
+  },
+  {
+    "url": "sturry-pc.gov.uk.json",
+    "name": "Sturry Parish Council",
+    "latlong": "51.303576, 1.121071",
+    "score": -1
+  },
+  {
+    "url": "suffolk-pcc.gov.uk.json",
+    "name": "Suffolk PCC",
+    "latlong": "52.1872472, 0.9707801",
+    "score": 0
+  },
+  {
+    "url": "supply4london.gov.uk.json",
+    "name": "Supply4London",
+    "latlong": "51.508515, -0.1254872",
+    "score": -1
+  },
+  {
+    "url": "surrey-pcc.gov.uk.json",
+    "name": "Surrey PCC",
+    "latlong": "51.2622513, -0.4672517",
+    "score": 8
+  },
+  {
+    "url": "surveillancecommissioners.gov.uk.json",
+    "name": "Surveillance Commissioners",
+    "latlong": "51.4810347, -0.1358036",
+    "score": 2
+  },
+  {
+    "url": "sussex-pcc.gov.uk.json",
+    "name": "Sussex PCC",
+    "latlong": "51.1615936, -0.1759655",
+    "score": 5
+  },
+  {
+    "url": "suttonbengerparishcouncil.gov.uk.json",
+    "name": "Sutton Benger Parish Council",
+    "latlong": "51.505328, -2.083788",
+    "score": 0
+  },
+  {
+    "url": "swaffhamtowncouncil.gov.uk.json",
+    "name": "Swaffham Town Council",
+    "latlong": "52.647466, 0.687481",
+    "score": 8
+  },
+  {
+    "url": "sway-pc.gov.uk.json",
+    "name": "Sway Parish Council",
+    "latlong": "50.783928, -1.607339",
+    "score": -1
+  },
+  {
+    "url": "swmprobation.gov.uk.json",
+    "name": "SWM Probation",
+    "latlong": "52.579865, -1.9875386",
+    "score": 0
+  },
+  {
+    "url": "tartanday.gov.uk.json",
+    "name": "Tartan Day",
+    "latlong": "55.942082, -3.2693618",
+    "score": 1
+  },
+  {
+    "url": "thestukeleys-pc.gov.uk.json",
+    "name": "The Stukeleys Parish Council",
+    "latlong": "52.355826, -0.2120291",
+    "score": 8
+  },
+  {
+    "url": "tintagelparishcouncil.gov.uk.json",
+    "name": "Tintagel Parish Council",
+    "latlong": "50.66301, -4.75066",
+    "score": 0
+  },
+  {
+    "url": "tyneandwearltp.gov.uk.json",
+    "name": "Tyne and Wear LTP",
+    "latlong": "54.9951837, -1.5666991",
+    "score": 5
+  },
+  {
+    "url": "uphollandpc.gov.uk.json",
+    "name": "Upholland Parish Council",
+    "latlong": "53.541714, -2.73097",
+    "score": -1
+  },
+  {
+    "url": "upperbeeding-pc.gov.uk.json",
+    "name": "Upper Beeding Parish Council",
+    "latlong": "50.88258, -0.303346",
+    "score": -1
+  },
+  {
+    "url": "upperrissington-pc.gov.uk.json",
+    "name": "Upper Rissington",
+    "latlong": "51.5047931, -0.0854541",
+    "score": 0
+  },
+  {
+    "url": "upperwitham-idb.gov.uk.json",
+    "name": "Upper Witham IDB",
+    "latlong": "52.7673816, -0.6277326",
+    "score": 1
+  },
+  {
+    "url": "walton-pc.gov.uk.json",
+    "name": "Walton Parish Council",
+    "latlong": "51.38847, -0.416969",
+    "score": 2
+  },
+  {
+    "url": "wantagetowncouncil.gov.uk.json",
+    "name": "Wantage Town Council",
+    "latlong": "51.588868, -1.426453",
+    "score": 1
+  },
+  {
+    "url": "wattontowncouncil.gov.uk.json",
+    "name": "Watton Town Council",
+    "latlong": "52.570848, 0.828023",
+    "score": 0
+  },
+  {
+    "url": "wellington-shropshire.gov.uk.json",
+    "name": "Wellington Shropshire",
+    "latlong": "52.703034, -2.518597",
+    "score": 7
+  },
+  {
+    "url": "wemrural-pc.gov.uk.json",
+    "name": "Wemrural",
+    "latlong": "52.8758439, -2.6933174",
+    "score": 0
+  },
+  {
+    "url": "wendover-pc.gov.uk.json",
+    "name": "Wendover Parish Council",
+    "latlong": "51.761877, -0.739779",
+    "score": 7
+  },
+  {
+    "url": "westburytowncouncil.gov.uk.json",
+    "name": "Westbury Town Council",
+    "latlong": "51.256659, -2.185772",
+    "score": -1
+  },
+  {
+    "url": "westlondonwaste.gov.uk.json",
+    "name": "West London Waste",
+    "latlong": "51.508515, -0.1254872",
+    "score": 2
+  },
+  {
+    "url": "westmidlands-probation.gov.uk.json",
+    "name": "West-Midlands Probation",
+    "latlong": "52.4750743, -1.829833",
+    "score": 8
+  },
+  {
+    "url": "westwitteringparishcouncil.gov.uk.json",
+    "name": "West Wittering Parish Council",
+    "latlong": "50.7805449, -0.895939",
+    "score": 5
+  },
+  {
+    "url": "wheatleyparishcouncil.gov.uk.json",
+    "name": "Wheatley Parish Council",
+    "latlong": "51.746021, -1.129617",
+    "score": -1
+  },
+  {
+    "url": "whitchurch-hampshire-tc.gov.uk.json",
+    "name": "Whitchurch Hampshire Town Council",
+    "latlong": "51.22977, -1.335304",
+    "score": 0
+  },
+  {
+    "url": "winslowtowncouncil.gov.uk.json",
+    "name": "Winslow Town Council",
+    "latlong": "51.944859, -0.878737",
+    "score": 8
+  },
+  {
+    "url": "witham-1st-idb.gov.uk.json",
+    "name": "Witham 1st IDB",
+    "latlong": "51.7978049, 0.6372179",
+    "score": 0
+  },
+  {
+    "url": "witham-3rd-idb.gov.uk.json",
+    "name": "Witham 3rd IDB",
+    "latlong": "51.7978049, 0.6372179",
+    "score": 1
+  },
+  {
+    "url": "witham.gov.uk.json",
+    "name": "Witham",
+    "latlong": "51.7978049, 0.6372179",
+    "score": 10
+  },
+  {
+    "url": "witney-tc.gov.uk.json",
+    "name": "Witney Town Council",
+    "latlong": "51.7859365, -1.4850544",
+    "score": 8
+  },
+  {
+    "url": "wringtonparishcouncil.gov.uk.json",
+    "name": "Wrington Parish Council",
+    "latlong": "51.364344, -2.7652",
+    "score": 8
+  },
+  {
+    "url": "www.audit-commission.gov.uk.json",
+    "name": "Audit Commission",
+    "latlong": "51.4919838, -0.1258821",
+    "score": -1
+  },
+  {
+    "url": "www.aylesburytowncouncil.gov.uk.json",
+    "name": "Aylesbury Town Council",
+    "latlong": "51.815606, -0.8084",
+    "score": 8
+  },
+  {
+    "url": "www.broxtonanddistrict-pc.gov.uk.json",
+    "name": "Broxton and District Parish Council",
+    "latlong": "53.083173, -2.776854",
+    "score": 4
+  },
+  {
+    "url": "www.chickerell-tc.gov.uk.json",
+    "name": "Chickerell Town Council",
+    "latlong": "50.624634, -2.503566",
+    "score": 0
+  },
+  {
+    "url": "www.chigwellparishcouncil.gov.uk.json",
+    "name": "Chigwill Parish Council",
+    "latlong": "51.626281, 0.080647",
+    "score": 2
+  },
+  {
+    "url": "www.christleton-pc.gov.uk.json",
+    "name": "Chirstleton Parish Council",
+    "latlong": "53.182608, -2.832952",
+    "score": 4
+  },
+  {
+    "url": "www.clevelandfire.gov.uk.json",
+    "name": "Cleveland Fire",
+    "latlong": "52.0595254, -0.7768614",
+    "score": 8
+  },
+  {
+    "url": "www.darwin.gov.uk.json",
+    "name": "Darwin",
+    "latlong": "52.7815113, -2.4263126",
+    "score": 8
+  },
+  {
+    "url": "www.dvlaonline.gov.uk.json",
+    "name": "DVLA",
+    "latlong": "51.62144, -3.943646",
+    "score": 0
+  },
+  {
+    "url": "www.familysupportni.gov.uk.json",
+    "name": "Family Support NI",
+    "latlong": "54.7877149, -6.4923145",
+    "score": 1
+  },
+  {
+    "url": "www.gmpa.gov.uk.json",
+    "name": "GMPA",
+    "latlong": "53.4575955, -2.1578377",
+    "score": -1
+  },
+  {
+    "url": "www.great-linford.gov.uk.json",
+    "name": "Great Linford",
+    "latlong": "51.488705, 0.41108",
+    "score": 7
+  },
+  {
+    "url": "www.herefordcitycouncil.gov.uk.json",
+    "name": "Hereford City Council",
+    "latlong": "52.056398, -2.715974",
+    "score": 0
+  },
+  {
+    "url": "www.hexhamtowncouncil.gov.uk.json",
+    "name": "Hexham Town Council",
+    "latlong": "54.972665, -2.1121439",
+    "score": 5
+  },
+  {
+    "url": "www.hmic.gov.uk.json",
+    "name": "HMIC",
+    "latlong": "51.4933874, -0.144116",
+    "score": 1
+  },
+  {
+    "url": "www.lancsfire.gov.uk.json",
+    "name": "Lancs Fire",
+    "latlong": "53.7612033, -2.6884519",
+    "score": 1
+  },
+  {
+    "url": "www.littlebudworth-pc.gov.uk.json",
+    "name": "Little Budworth Parish Council",
+    "latlong": "53.183827, -2.605317",
+    "score": 4
+  },
+  {
+    "url": "www.littlestanney-pc.gov.uk.json",
+    "name": "Little Stanney Parish Council",
+    "latlong": "53.259437, -2.884876",
+    "score": 7
+  },
+  {
+    "url": "www.localdirect.gov.uk.json",
+    "name": "Local Direct",
+    "latlong": "51.4981179, -0.1424399",
+    "score": -1
+  },
+  {
+    "url": "www.marton-pc.gov.uk.json",
+    "name": "Marton Parish Council",
+    "latlong": "52.317232, -1.401978",
+    "score": 4
+  },
+  {
+    "url": "www.matlock.gov.uk.json",
+    "name": "Matlock",
+    "latlong": "53.137156, -1.551774",
+    "score": 2
+  },
+  {
+    "url": "www.nifca.gov.uk.json",
+    "name": "NIFCA",
+    "latlong": "55.126957, -1.510277",
+    "score": 0
+  },
+  {
+    "url": "www.nimdta.gov.uk.json",
+    "name": "NIMDTA",
+    "latlong": "54.5503424, -5.914993",
+    "score": 2
+  },
+  {
+    "url": "www.norfolkparishes.gov.uk.json",
+    "name": "Norfolk Parishes",
+    "latlong": "52.6139686, 0.8864020",
+    "score": 0
+  },
+  {
+    "url": "www.norfolk-pcc.gov.uk.json",
+    "name": "Norfolk PCC",
+    "latlong": "52.6139686, 0.8864021",
+    "score": 0
+  },
+  {
+    "url": "www.nypa.gov.uk.json",
+    "name": "NYPA",
+    "latlong": "54.2503595, -1.4708553",
+    "score": 3
+  },
+  {
+    "url": "www.purleyonthames-pc.gov.uk.json",
+    "name": "Purley on Thames Parish Council",
+    "latlong": "51.4839512, -1.0601893",
+    "score": 8
+  },
+  {
+    "url": "www.saughall.gov.uk.json",
+    "name": "Saughall",
+    "latlong": "53.2233329, -2.959321",
+    "score": -1
+  },
+  {
+    "url": "www.somersetwaste.gov.uk.json",
+    "name": "Somerset Waste",
+    "latlong": "51.0587013, -2.9499066",
+    "score": 3
+  },
+  {
+    "url": "www.taith.gov.uk.json",
+    "name": "Taith",
+    "latlong": "53.2498081, -3.1332104",
+    "score": -1
+  },
+  {
+    "url": "www.threapwoodparishcouncil.gov.uk.json",
+    "name": "Threapwood Parish Council",
+    "latlong": "52.99936, -2.839106",
+    "score": 4
+  },
+  {
+    "url": "www.warwickshire.gov.uk.json",
+    "name": "Warwichshire",
+    "latlong": "52.282316, -1.584927",
+    "score": 0
+  }
+]
