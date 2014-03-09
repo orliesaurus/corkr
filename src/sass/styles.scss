@@ -291,9 +291,42 @@ body{
   background-image: url('../img/marker-red-x2.png');
 }
 
-#gauge {
-  background-color: hsl( 220, 100, 90 );
-  position: absolute;
-  top: 0;
-  right: 0;
+.guage {
+
+}
+
+.guage-pointer {
+
+}
+
+.domain-btns{
+  position: fixed;
+  top: 3.5rem;
+  right: 1rem;
+  z-index: 999;
+
+  button {
+    width: 4rem;
+    height: 4rem;  
+    background-color: transparent;
+    background-size: 100%;
+    opacity: 0.5;
+    transition: all 0.25s;
+
+    &:hover {
+      opacity: 0.65;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+.nhs{
+  background-image: url('../img/nhs-x2.png');
+}
+
+.gov{
+  background-image: url('../img/gov-x2.png');
 }

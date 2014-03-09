@@ -1,10 +1,16 @@
 $( document ).ready( function() {
 
+  // show app info
+  $( '.info-btn' ).click( function() {
+    $( '.app-header' ).toggleClass( 'active' );
+  });  
+
   $( 'body' ).click(function() {
     if ( $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).removeClass( 'active' );
     }
   });
+
 
   var map; // = undefined;
 
@@ -24,6 +30,8 @@ $( document ).ready( function() {
   });
 
   loadJSONData("js/pretty.json");
+
+  // Rewire the map
 
   function loadJSONData( fileName ) {
 
@@ -91,9 +99,22 @@ $( document ).ready( function() {
 
   }
 
-//  $( '.info-btn' ).click( function() {
-//    loadJSONData("js/nhs.json");
-//  });
+  // change button states
+  $( '.domain-btns button' ).click(function(event) {
+    $( '.domain-btns button' ).removeClass( 'active' );
+    $( this ).addClass( 'active' );
+
+    attrs = this.attributes[0].nodeValue.split(' ')
+
+    if ( attrs[0] === 'nhs' ) {
+      fileName = "js/nhs.json"
+    } else {
+      fileName = "js/pretty.json"
+    }
+
+    loadJSONData(fileName);
+
+  });
 
 
   var Gauge = new Gauge({ renderTo: 'gauge' });
