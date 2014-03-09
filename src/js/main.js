@@ -1,3 +1,7 @@
+window.setGauge = function (score) {
+  Gauge.Collection.get('gauge').setValue(parseInt(score));
+}
+
 $( document ).ready( function() {
 
   // show app info
@@ -8,22 +12,12 @@ $( document ).ready( function() {
   $( 'body' ).click(function() {
     if ( $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).removeClass( 'active' );
+      window.setGauge(0);
     }
   });
 
-  // change button states
-  $( '.domain-btns button' ).click(function(event) {
-    $( '.domain-btns button' ).removeClass( 'active' );
-    $( this ).addClass( 'active' );
-  });
 
-  var map = L.map('map', {
-    zoomControl: false,
-    minZoom: 5,
-    attributionControl: false
-  }).setView([54.5, -3], 6);
-
-  L.tileLayer('https://{s}.tiles.mapbox.com/v3/m6-d6.hfccch9n/{z}/{x}/{y}.png', {}).addTo(map);
+  var map; // = undefined;
 
   var markerGreen = L.icon({
     iconUrl: 'img/marker-green-x2.png',
@@ -40,48 +34,73 @@ $( document ).ready( function() {
     iconSize: [ 10, 10 ]
   });
 
-  // you can set .my-div-icon styles in CSS
+  loadJSONData("js/pretty.json");
 
-  $.getJSON( "js/pretty.json", function( data ) {
+  // Rewire the map
 
-    for(var i=0; i<data.length; i++)
-    {
-      //latlong = [data[i].latlong].pop();
-      ll = data[i].latlong;
-      latlong = ll.split(',');
-      //console.log(latlong);
-      name = data[i].name;
-      score = data[i].score;
-      url = data[i].url;
+  function loadJSONData( fileName ) {
 
-      if (score === 0)
-      {
-        thisMarker = markerGreen;
-        color = 'green';
-      } else if (score < 6)
-      {
-        thisMarker = markerOrange;
-        color = 'orange';
-      } else{
-        thisMarker = markerRed;
-        color = 'red';
-      }
-      L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:color, url:url}).on('click',wantInfo).addTo(map);
-
+    if (map !== undefined) {
+      map.remove();
     }
-  });
+
+    map = L.map('map', {
+      zoomControl: false,
+      minZoom: 5,
+      attributionControl: false
+    }).setView([54.5, -3], 6);
+
+    L.tileLayer('https://{s}.tiles.mapbox.com/v3/m6-d6.hfccch9n/{z}/{x}/{y}.png', {}).addTo(map);
+
+    $.getJSON( fileName, function( data ) {
+
+      for(var i=0; i<data.length; i++)
+      {
+        //latlong = [data[i].latlong].pop();
+        ll = data[i].latlong;
+        
+        if (ll !== null) {
+          latlong = ll.split(',');
+          //console.log(latlong);
+          name = data[i].name;
+          score = data[i].score;
+          url = data[i].url;
+
+          if (score === 0)
+          {
+            thisMarker = markerGreen;
+            color = 'green';
+          } else if (score < 6)
+          {
+            thisMarker = markerOrange;
+            color = 'orange';
+          } else{
+            thisMarker = markerRed;
+            color = 'red';
+          }
+          L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:score, cData:color, url:url}).on('click',wantInfo).addTo(map);
+
+        }
+
+      }
+
+    });
+  }
 
   function wantInfo(e) {
     dataSource = e.target.options;
     name = dataSource.title;
     url = dataSource.url;
     score = dataSource.score;
+    cData = dataSource.cData;
 
     $( '.item-info' ).removeClass( 'green orange red');
 
-    $( '.item-info' ).addClass( score );
+    $( '.item-info' ).addClass( cData );
     $( '.item-info' ).find( '.url' ).children().html( url.slice(0,-5) );
     $( '.item-info' ).find( '.description' ).html(name);
+
+    window.setGauge(score);
 
     if (! $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).toggleClass( 'active' );
@@ -94,6 +113,23 @@ $( document ).ready( function() {
       });
     }
   }
+
+  // change button states
+  $( '.domain-btns button' ).click(function(event) {
+    $( '.domain-btns button' ).removeClass( 'active' );
+    $( this ).addClass( 'active' );
+
+    attrs = this.attributes[0].nodeValue.split(' ');
+
+    if ( attrs[0] === 'nhs' ) {
+      fileName = "js/nhs.json";
+    } else {
+      fileName = "js/pretty.json";
+    }
+
+    loadJSONData(fileName);
+
+  });
 
 
   var Gauge = new Gauge({ renderTo: 'gauge' });
