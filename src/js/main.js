@@ -49,7 +49,7 @@ $( document ).ready( function() {
       score = data[i].score;
       url = data[i].url;
 
-      L.marker(latlong, {riseOnHover:'true',title:name}).on('click', onClick()).addTo(map);
+      L.marker(latlong, {riseOnHover:'true',title:name}).addTo(map);
 
     }
   });
