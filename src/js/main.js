@@ -1,9 +1,20 @@
 $( document ).ready( function() {
 
+  // show app info
+  $( '.info-btn' ).click( function() {
+    $( '.app-header' ).toggleClass( 'active' );
+  });  
+
   $( 'body' ).click(function() {
     if ( $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).removeClass( 'active' );
     }
+  });
+
+  // change button states
+  $( '.domain-btns button' ).click(function(event) {
+    $( '.domain-btns button' ).removeClass( 'active' );
+    $( this ).addClass( 'active' );
   });
 
   var map = L.map('map', {
