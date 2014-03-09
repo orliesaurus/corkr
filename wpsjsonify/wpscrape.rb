@@ -167,7 +167,6 @@ fileData.each { |line|
 	if content = line[/^(\s\|\s)?(\[[+!]\]|\s\|)\s(.*)/,3]
 		if line[/^(\s\|\s)?(\[[+!]\]|\s\|)\s(.*)/,1]
 			content = '@' + content
-			puts content
 		end
 		data << line[1] + content
 	end
