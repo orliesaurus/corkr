@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'json'
-#require 'ap'
 
 ################ GLOBALS ################
 
@@ -46,7 +45,7 @@ def get_plugin_hash(infos)
 	score = 0
 
 	infos.each { |info|
-		warn, name, content = info.match(/^(@)?([@A-Za-z\-\.\s]*):(.*)/).captures
+		warn, name, content = info.match(/^(@)?([^:]*):(.*)/).captures
 		score += 1 if warn
 
 		name = name.downcase.strip
