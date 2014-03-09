@@ -25,7 +25,7 @@ $( document ).ready( function() {
   });
 
   var markerRed = L.icon({
-    iconUrl: '../img/marker-red-x2.png',
+    iconUrl: 'img/marker-red-x2.png',
     iconSize: [ 10, 10 ]
   });
 
