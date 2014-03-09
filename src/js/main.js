@@ -49,8 +49,16 @@ $( document ).ready( function() {
       name = data[i].name;
       score = data[i].score;
       url = data[i].url;
-
-      L.marker(latlong, {riseOnHover:'true',title:name}).addTo(map);
+      if (score <= 0)
+      {
+        thisMarker = markerGreen;
+      } else if (score < 6)
+      {
+        thisMarker = markerOrange;
+      } else{
+        thisMarker = markerRed;
+      }
+      L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker}).addTo(map);
 
     }
   });
