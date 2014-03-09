@@ -59,9 +59,18 @@ $( document ).ready( function() {
       } else{
         thisMarker = markerRed;
       }
-      L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker}).addTo(map);
+      L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:score, url:url}).on('click',wantInfo).addTo(map);
 
     }
   });
+
+  function wantInfo(e) {
+    dataSource = e.target.options
+    name = dataSource.title;
+    url = dataSource.url;
+    score = dataSource.score;
+
+    alert(name + " (" + url + ") => " + score);
+  }
 });
 
