@@ -11,7 +11,8 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/vendor/modernizr.min.js"></script> 
+  <script src="js/vendor/modernizr.min.js"></script>
+  <script src="js/gauge.min.js"></script>
 </head>
 <body>
 
@@ -28,6 +29,12 @@
     </div>
   </header>
 
+  <div class="domain-btns">
+    <button class="nhs"></button>
+    <button class="gov active"></button>
+  </div>
+
+
   <div class="item-info orange">
     <div class="shield-outer">
       <div class="shield"></div>
@@ -39,6 +46,25 @@
       <span class="rating"></span>
       <span class="help">Own this website? <a href="">Contact us</a> to help fix these problems.</span>
     </div>
+
+    <canvas id="gauge" width="160" class="gauge"
+      data-type="canv-gauge"
+      data-title="Bugs"
+      data-min-value="0"
+      data-max-value="20"
+      data-stroke-ticks="true"
+      data-units=""
+      data-colors-major-ticks="#193956"
+      data-value-format="2.0"
+      data-glow="false"
+      data-animation-delay="20"
+      data-animation-duration="3000"
+      data-animation-fn="linear"
+      data-colors-needle="#193956 #193956"
+      data-highlights="0 1 #51E051, 1 6 #FCA32D, 6 20 #EF5750"
+      data-value="0"
+      data-onready="Gauge.Collection.get('gauge').setValue(0)"
+    ></canvas>
   </div>
 
   <div id="map"></div>
