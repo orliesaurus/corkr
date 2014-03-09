@@ -65,12 +65,25 @@ $( document ).ready( function() {
   });
 
   function wantInfo(e) {
-    dataSource = e.target.options
+    dataSource = e.target.options;
     name = dataSource.title;
     url = dataSource.url;
     score = dataSource.score;
 
     alert(name + " (" + url + ") => " + score);
   }
+
+
+  var Gauge = new Gauge({ renderTo: 'gauge' });
+  // now handle initial gauge draw with onready event
+  gauge.onready = function() {
+      // and do update of gauge value each second with the random value
+      setInterval( function() {
+          gauge.setValue( Math.random() * 100);
+      }, 1000);
+  };
+  // draw the gauge
+  gauge.draw();
+
 });
 
