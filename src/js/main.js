@@ -1,3 +1,7 @@
+window.setGauge = function (score) {
+  Gauge.Collection.get('gauge').setValue(parseInt(score));
+}
+
 $( document ).ready( function() {
 
   // show app info
@@ -8,6 +12,7 @@ $( document ).ready( function() {
   $( 'body' ).click(function() {
     if ( $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).removeClass( 'active' );
+      window.setGauge(0);
     }
   });
 
@@ -54,7 +59,7 @@ $( document ).ready( function() {
         //latlong = [data[i].latlong].pop();
         ll = data[i].latlong;
         
-        if (ll != null) {
+        if (ll !== null) {
           latlong = ll.split(',');
           //console.log(latlong);
           name = data[i].name;
@@ -73,7 +78,7 @@ $( document ).ready( function() {
             thisMarker = markerRed;
             color = 'red';
           }
-          L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:color, url:url}).on('click',wantInfo).addTo(map);
+          L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:score, cData:color, url:url}).on('click',wantInfo).addTo(map);
 
         }
       }
@@ -86,12 +91,15 @@ $( document ).ready( function() {
     name = dataSource.title;
     url = dataSource.url;
     score = dataSource.score;
+    cData = dataSource.cData;
 
     $( '.item-info' ).removeClass( 'green orange red');
 
-    $( '.item-info' ).addClass( score );
+    $( '.item-info' ).addClass( cData );
     $( '.item-info' ).find( '.url' ).children().html( url.slice(0,-5) );
     $( '.item-info' ).find( '.description' ).html(name);
+
+    window.setGauge(score);
 
     if (! $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).toggleClass( 'active' );
@@ -104,12 +112,12 @@ $( document ).ready( function() {
     $( '.domain-btns button' ).removeClass( 'active' );
     $( this ).addClass( 'active' );
 
-    attrs = this.attributes[0].nodeValue.split(' ')
+    attrs = this.attributes[0].nodeValue.split(' ');
 
     if ( attrs[0] === 'nhs' ) {
-      fileName = "js/nhs.json"
+      fileName = "js/nhs.json";
     } else {
-      fileName = "js/pretty.json"
+      fileName = "js/pretty.json";
     }
 
     loadJSONData(fileName);
