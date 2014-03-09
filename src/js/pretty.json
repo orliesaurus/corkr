@@ -9,13 +9,13 @@
     "url": "alcester-tc.gov.uk.json",
     "name": "Alcester Town Council",
     "latlong": "52.215311, -1.867605",
-    "score": -1
+    "score": 7
   },
   {
     "url": "aldenham-pc.gov.uk.json",
     "name": "Aldenham Parish Council",
     "latlong": "51.6723, -0.3546",
-    "score": -1
+    "score": 3
   },
   {
     "url": "amble.gov.uk.json",
@@ -39,7 +39,7 @@
     "url": "astoncantlow-pc.gov.uk.json",
     "name": "Aston Cantlow Parish Council",
     "latlong": "52.224052, -1.7737004",
-    "score": -1
+    "score": 13
   },
   {
     "url": "ayrshire-jsu.gov.uk.json",
@@ -57,7 +57,7 @@
     "url": "beaconsfieldtowncouncil.gov.uk.json",
     "name": "Beaconsfield Town Council",
     "latlong": "51.602396, -0.6442409",
-    "score": -1
+    "score": 2
   },
   {
     "url": "betterregulation.gov.uk.json",
@@ -69,7 +69,7 @@
     "url": "birminghamprepared.gov.uk.json",
     "name": "Birmingham Prepared",
     "latlong": "52.486243, -1.890401",
-    "score": -1
+    "score": 15
   },
   {
     "url": "blog.gov.uk.json",
@@ -93,7 +93,7 @@
     "url": "brayparishcouncil.gov.uk.json",
     "name": "Bray Parish Council",
     "latlong": "51.041762, -2.265503",
-    "score": -1
+    "score": 6
   },
   {
     "url": "bridgnorthtowncouncil.gov.uk.json",
@@ -117,7 +117,7 @@
     "url": "bude-stratton.gov.uk.json",
     "name": "Bude Stratton",
     "latlong": "50.8302205, -4.543689",
-    "score": -1
+    "score": 2
   },
   {
     "url": "burrator.gov.uk.json",
@@ -225,7 +225,7 @@
     "url": "defra.gov.uk.json",
     "name": "DEFRA",
     "latlong": "51.4955834, -0.126134",
-    "score": -1
+    "score": 7
   },
   {
     "url": "devonaudit.gov.uk.json",
@@ -237,7 +237,7 @@
     "url": "ducklingtonparishcouncil.gov.uk.json",
     "name": "Ducklington Parish Council",
     "latlong": "51.76534, -1.475771",
-    "score": -1
+    "score": 2
   },
   {
     "url": "eastgrinstead.gov.uk.json",
@@ -267,13 +267,13 @@
     "url": "frensham-pc.gov.uk.json",
     "name": "Frensham Parish Council",
     "latlong": "51.166393, -0.796032",
-    "score": -1
+    "score": 4
   },
   {
     "url": "frodsham.gov.uk.json",
     "name": "Frodsham",
     "latlong": "53.297083, -2.729463",
-    "score": -1
+    "score": 8
   },
   {
     "url": "gerrardscross.gov.uk.json",
@@ -285,7 +285,7 @@
     "url": "great-aycliffe.gov.uk.json",
     "name": "Great Aycliffe",
     "latlong": "54.615988, -1.575577",
-    "score": -1
+    "score": 12
   },
   {
     "url": "gwineargwithian-pc.gov.uk.json",
@@ -309,7 +309,7 @@
     "url": "henley-in-arden-pc.gov.uk.json",
     "name": "Henley In Arden Parish Council",
     "latlong": "52.292549, -1.779866",
-    "score": -1
+    "score": 7
   },
   {
     "url": "hertfordheath.gov.uk.json",
@@ -321,7 +321,7 @@
     "url": "highways.gov.uk.json",
     "name": "Highways Agency",
     "latlong": "53.7884065, -1.5477387",
-    "score": -1
+    "score": 12
   },
   {
     "url": "hmcpsi.gov.uk.json",
@@ -345,7 +345,7 @@
     "url": "hucclecotepc.gov.uk.json",
     "name": "Hucclecote Parish Council",
     "latlong": "51.8612623, -2.1760016",
-    "score": -1
+    "score": 10
   },
   {
     "url": "ilfracombetowncouncil.gov.uk.json",
@@ -387,7 +387,7 @@
     "url": "legsb.gov.uk.json",
     "name": "leGSB",
     "latlong": "51.5372768, -0.9010693",
-    "score": -1
+    "score": 6
   },
   {
     "url": "longstratton-pc.gov.uk.json",
@@ -399,13 +399,13 @@
     "url": "loughtonmk-pc.gov.uk.json",
     "name": "Loughton Parish Council",
     "latlong": "52.0301356, -0.7678909",
-    "score": -1
+    "score": 6
   },
   {
     "url": "lydiateparishcouncil.gov.uk.json",
     "name": "Lydiate Parish Council",
     "latlong": "53.529677, -2.953688",
-    "score": -1
+    "score": 2
   },
   {
     "url": "marchtowncouncil.gov.uk.json",
@@ -441,13 +441,13 @@
     "url": "morecambe.gov.uk.json",
     "name": "Morecambe",
     "latlong": "51.8964249, -0.4760102",
-    "score": -1
+    "score": 7
   },
   {
     "url": "Morpeth-tc.gov.uk.json",
     "name": "Morpeth Town Council",
     "latlong": "55.16875, -1.687493",
-    "score": -1
+    "score": 4
   },
   {
     "url": "mumbles.gov.uk.json",
@@ -459,7 +459,7 @@
     "url": "nantwichtowncouncil.gov.uk.json",
     "name": "Nantwich Town Council",
     "latlong": "53.06571, -2.5206607",
-    "score": -1
+    "score": 5
   },
   {
     "url": "nao.gov.uk.json",
@@ -471,7 +471,7 @@
     "url": "nash-bucks-pc.gov.uk.json",
     "name": "Nash Bucks Parish Council",
     "latlong": "51.998149, -0.86048",
-    "score": -1
+    "score": 10
   },
   {
     "url": "nelsontowncouncil.gov.uk.json",
@@ -495,7 +495,7 @@
     "url": "northleach.gov.uk.json",
     "name": "Northleach",
     "latlong": "51.830777, -1.837254",
-    "score": -1
+    "score": 3
   },
   {
     "url": "northweald-pc.gov.uk.json",
@@ -561,7 +561,7 @@
     "url": "pontypriddtowncouncil.gov.uk.json",
     "name": "Pontypridd Town Council",
     "latlong": "51.600774, -3.342314",
-    "score": -1
+    "score": 4
   },
   {
     "url": "prescot-tc.gov.uk.json",
@@ -585,7 +585,7 @@
     "url": "ramseyparkeston-pc.gov.uk.json",
     "name": "Ramsey Parkeston Parish Council",
     "latlong": "51.941456, 1.253086",
-    "score": -1
+    "score": 10
   },
   {
     "url": "rippondenparishcouncil.gov.uk.json",
@@ -603,7 +603,7 @@
     "url": "ruralcommunities.gov.uk.json",
     "name": "Rural Communities",
     "latlong": "51.8644276, -2.2082462",
-    "score": -1
+    "score": 6
   },
   {
     "url": "rushdentowncouncil.gov.uk.json",
@@ -639,7 +639,7 @@
     "url": "somersetdrainageboards.gov.uk.json",
     "name": "Somerset Drainage Boards",
     "latlong": "51.0587013, -2.9499066",
-    "score": -1
+    "score": 3
   },
   {
     "url": "sopley.gov.uk.json",
@@ -669,7 +669,7 @@
     "url": "staffordshire-pcc.gov.uk.json",
     "name": "Staffordshire PCC",
     "latlong": "52.7697957, -2.1045243",
-    "score": -1
+    "score": 5
   },
   {
     "url": "stamfordtowncouncil.gov.uk.json",
@@ -699,13 +699,13 @@
     "url": "stdavids.gov.uk.json",
     "name": "St Davids",
     "latlong": "51.881227, -5.265995",
-    "score": -1
+    "score": 8
   },
   {
     "url": "steyningpc.gov.uk.json",
     "name": "Steyning Parish Council",
     "latlong": "50.887403, -0.326676",
-    "score": -1
+    "score": 6
   },
   {
     "url": "stneots-tc.gov.uk.json",
@@ -717,7 +717,7 @@
     "url": "stokepogesparishcouncil.gov.uk.json",
     "name": "Stoke Poges Parish Council",
     "latlong": "51.54817, -0.582716",
-    "score": -1
+    "score": 14
   },
   {
     "url": "street-pc.gov.uk.json",
@@ -729,7 +729,7 @@
     "url": "sturry-pc.gov.uk.json",
     "name": "Sturry Parish Council",
     "latlong": "51.303576, 1.121071",
-    "score": -1
+    "score": 4
   },
   {
     "url": "suffolk-pcc.gov.uk.json",
@@ -741,7 +741,7 @@
     "url": "supply4london.gov.uk.json",
     "name": "Supply4London",
     "latlong": "51.508515, -0.1254872",
-    "score": -1
+    "score": 5
   },
   {
     "url": "surrey-pcc.gov.uk.json",
@@ -777,7 +777,7 @@
     "url": "sway-pc.gov.uk.json",
     "name": "Sway Parish Council",
     "latlong": "50.783928, -1.607339",
-    "score": -1
+    "score": 15
   },
   {
     "url": "swmprobation.gov.uk.json",
@@ -813,13 +813,13 @@
     "url": "uphollandpc.gov.uk.json",
     "name": "Upholland Parish Council",
     "latlong": "53.541714, -2.73097",
-    "score": -1
+    "score": 10
   },
   {
     "url": "upperbeeding-pc.gov.uk.json",
     "name": "Upper Beeding Parish Council",
     "latlong": "50.88258, -0.303346",
-    "score": -1
+    "score": 6
   },
   {
     "url": "upperrissington-pc.gov.uk.json",
@@ -873,7 +873,7 @@
     "url": "westburytowncouncil.gov.uk.json",
     "name": "Westbury Town Council",
     "latlong": "51.256659, -2.185772",
-    "score": -1
+    "score": 11
   },
   {
     "url": "westlondonwaste.gov.uk.json",
@@ -897,7 +897,7 @@
     "url": "wheatleyparishcouncil.gov.uk.json",
     "name": "Wheatley Parish Council",
     "latlong": "51.746021, -1.129617",
-    "score": -1
+    "score": 5
   },
   {
     "url": "whitchurch-hampshire-tc.gov.uk.json",
@@ -945,7 +945,7 @@
     "url": "www.audit-commission.gov.uk.json",
     "name": "Audit Commission",
     "latlong": "51.4919838, -0.1258821",
-    "score": -1
+    "score": 2
   },
   {
     "url": "www.aylesburytowncouncil.gov.uk.json",
@@ -1005,7 +1005,7 @@
     "url": "www.gmpa.gov.uk.json",
     "name": "GMPA",
     "latlong": "53.4575955, -2.1578377",
-    "score": -1
+    "score": 8
   },
   {
     "url": "www.great-linford.gov.uk.json",
@@ -1053,7 +1053,7 @@
     "url": "www.localdirect.gov.uk.json",
     "name": "Local Direct",
     "latlong": "51.4981179, -0.1424399",
-    "score": -1
+    "score": 13
   },
   {
     "url": "www.marton-pc.gov.uk.json",
@@ -1107,7 +1107,7 @@
     "url": "www.saughall.gov.uk.json",
     "name": "Saughall",
     "latlong": "53.2233329, -2.959321",
-    "score": -1
+    "score": 8
   },
   {
     "url": "www.somersetwaste.gov.uk.json",
@@ -1119,7 +1119,7 @@
     "url": "www.taith.gov.uk.json",
     "name": "Taith",
     "latlong": "53.2498081, -3.1332104",
-    "score": -1
+    "score": 1
   },
   {
     "url": "www.threapwoodparishcouncil.gov.uk.json",
