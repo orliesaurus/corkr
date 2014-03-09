@@ -43,7 +43,7 @@
   height: 2.5rem;
   z-index: 999;
   background-color: $paper;
-  transition: all 0.2s;
+  transition: all 0.25s 0.1s;
 }
 
 .app-header.active {
@@ -51,10 +51,6 @@
 
   .header-logo {
     left: -12.75rem;
-  }
-
-  .info-content {
-    display: block;
   }
 
   .info-btn {
@@ -81,7 +77,7 @@
   height: 2rem;
   left: 1rem;
   bottom: 0.25rem;
-  transition: all 0.2s;
+  transition: all 0.25s;
 }
 
 .info-logo {
@@ -112,12 +108,12 @@
 }
 
 .info-content {
-  display: none;
   max-width: 40rem;
   position: absolute;
   left: 1rem;
   bottom: 2.5rem;
   height: 7.5rem;
+  padding-top: 0.5rem;
 
   p {
     margin: 0;
@@ -128,4 +124,123 @@
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.item-info {
+  @include clearfix;
+
+  position: absolute;
+  width: 100%;
+  background-color: $paper;
+  height: 10rem;
+  bottom: -10rem;
+  z-index: 998;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.item-info.active {
+  bottom: 0;
+
+  .shield {
+    transform: scale( 1 );  
+  }
+
+  .item-text {
+    opacity: 1;
+  }
+}
+
+.shield-outer {
+  float: left;
+  width: 7.2rem;
+  height: 8rem;
+}
+
+.shield {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 7.2rem;
+  height: 8rem;
+  transform: scale( 0 );
+  transition: all 0.2s 0.1s;
+}
+
+.shield-green {
+  background-image: url('../img/shield-green-x2.png');
+}
+
+.shield-orange {
+  background-image: url('../img/shield-orange-x2.png');
+}
+
+.shield-red {
+  background-image: url('../img/shield-red-x2.png');
+}
+
+.item-text {
+  margin-left: 8.5rem;
+  opacity: 0;
+  transition: all 0.5s 0.1s;
+  // padding-top: 0.75rem;
+}
+
+.url {
+  font-size: $mega;
+  margin: 0;
+}
+
+.description {
+  color: $ink-secondary;
+  margin: 0;
+}
+
+.rating-label {
+  position: relative;
+  color: $ink-secondary;
+  top: -0.25rem;
+}
+
+.rating {
+  font-weight: bold;
+  font-size: $beta;
+}
+
+.rating-green {
+  color: $green;
+}
+
+.rating-orange {
+  color: $orange;
+}
+
+.rating-red {
+  color: $red;
+}
+
+.help {
+  display: block;
+  font-size: $zeta;
+  margin-top: -0.15rem;
+}
+
+.marker-green,
+.marker-orange,
+.marker-red {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.marker-green {
+  background-image: url('../img/marker-green-x2.png');
+}
+
+.marker-orange {
+  background-image: url('../img/marker-orange-x2.png');
+}
+
+.marker-red {
+  background-image: url('../img/marker-red-x2.png');
 }
