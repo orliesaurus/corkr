@@ -44,29 +44,27 @@
       <p class="description">Akeley Parish Council</p>
       <span class="rating-label">Security rating:</span>
       <span class="rating"></span>
-      <canvas id="gauge" width="150"
-              data-type="canv-gauge"
-              data-title="Bugs"
-              data-min-value="0"
-              data-max-value="20"
-              data-stroke-ticks="true"
-              data-units=""
-              data-value-format="2.0"
-              data-glow="true"
-              data-animation-delay="20"
-              data-animation-duration="3000"
-              data-animation-fn="linear"
-              data-colors-needle="#f00 #00f"
-              data-highlights="0 1 #4f4, 1 6 #ff4, 6 20 #f44"
-              data-value="0"
-              data-onready="Gauge.Collection.get('gauge').setValue(0)"
-            ></canvas>
       <span class="help">Own this website? <a href="">Contact us</a> to help fix these problems.</span>
     </div>
 
-    <div class="guage">
-      <div class="guage-pointer"></div>
-    </div>
+    <canvas id="gauge" width="160" class="gauge"
+      data-type="canv-gauge"
+      data-title="Bugs"
+      data-min-value="0"
+      data-max-value="20"
+      data-stroke-ticks="true"
+      data-units=""
+      data-colors-major-ticks="#193956"
+      data-value-format="2.0"
+      data-glow="false"
+      data-animation-delay="20"
+      data-animation-duration="3000"
+      data-animation-fn="linear"
+      data-colors-needle="#193956 #193956"
+      data-highlights="0 1 #51E051, 1 6 #FCA32D, 6 20 #EF5750"
+      data-value="0"
+      data-onready="Gauge.Collection.get('gauge').setValue(0)"
+    ></canvas>
   </div>
 
   <div id="map"></div>
