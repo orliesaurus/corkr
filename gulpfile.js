@@ -57,6 +57,13 @@ gulp.task( 'minifyJS', function () {
     .pipe( livereload( server ) );
 });
 
+// copy json 
+gulp.task( 'copyJson', function () {
+  gulp.src( src + 'js/**/*.json' )
+    .pipe( gulp.dest( dist + '/js' ) )
+    .pipe( livereload( server ) );
+});
+
 // CSS task
 gulp.task( 'css', function () {
   gulp.src( src + 'sass/*.scss' )
@@ -71,7 +78,7 @@ gulp.task( 'css', function () {
 
 // build task
 gulp.task( 'build', function () {
-  gulp.run( 'embedlr', 'minifyJS', 'css', 'minifyImg', 'minifySvg' );
+  gulp.run( 'embedlr', 'minifyJS', 'css', 'minifyImg', 'minifySvg', 'copyJson' );
 });
 
 // minify SVG
@@ -104,6 +111,10 @@ gulp.task( 'watch', function () {
 
     gulp.watch( src + '*.html', function () {
       gulp.run( 'embedlr' );
+    });
+
+    gulp.watch( src + 'js/**/*.json', function () {
+      gulp.run( 'copyJson' );
     });    
 
     gulp.watch( [ src + 'js/*.js', './gulpfile.js' ], function () {

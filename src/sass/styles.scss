@@ -139,6 +139,45 @@
   transition: all 0.2s;
 }
 
+.item-info.green {
+  .shield {
+    background-image: url('../img/shield-green-x2.png');
+  }
+
+  .rating {
+    color: $green;
+    &::before {
+      content: "good";
+    } 
+  }
+}
+
+.item-info.orange {
+  .shield {
+    background-image: url('../img/shield-orange-x2.png');
+  }
+
+  .rating {
+    color: $orange;
+    &::before {
+      content: "poor";
+    } 
+  }
+}
+
+.item-info.red {
+  .shield {
+    background-image: url('../img/shield-red-x2.png');
+  }
+
+  .rating {
+    color: $red;
+    &::before {
+      content: "very poor";
+    } 
+  }
+}
+
 .item-info.active {
   bottom: 0;
 
@@ -166,23 +205,10 @@
   transition: all 0.2s 0.1s;
 }
 
-.shield-green {
-  background-image: url('../img/shield-green-x2.png');
-}
-
-.shield-orange {
-  background-image: url('../img/shield-orange-x2.png');
-}
-
-.shield-red {
-  background-image: url('../img/shield-red-x2.png');
-}
-
 .item-text {
   margin-left: 8.5rem;
   opacity: 0;
   transition: all 0.5s 0.1s;
-  // padding-top: 0.75rem;
 }
 
 .url {
@@ -204,18 +230,34 @@
 .rating {
   font-weight: bold;
   font-size: $beta;
+
+  &::before {
+    text-transform: uppercase;
+  }
 }
 
 .rating-green {
   color: $green;
+
+  &::before {
+    content: "good";
+  }
 }
 
 .rating-orange {
   color: $orange;
+
+  &::before {
+    content: "poor";
+  }
 }
 
 .rating-red {
   color: $red;
+
+  &::before {
+    content: "very poor";
+  }
 }
 
 .help {
