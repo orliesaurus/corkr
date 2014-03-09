@@ -13,24 +13,25 @@ $( document ).ready( function() {
     zoomControl: false,
     minZoom: 5,
     attributionControl: false
-  }).setView([51.505, -0.09], 5);
+  }).setView([54.5, -3], 6);
 
   L.tileLayer('https://{s}.tiles.mapbox.com/v3/m6-d6.hfccch9n/{z}/{x}/{y}.png', {}).addTo(map);
 
-  var markerGreen = L.divIcon({
-    className: 'marker-green', 
-    iconSize: '60px'
+  var markerGreen = L.icon({
+    iconUrl: '../img/marker-green-x2.png',
+    iconSize: [ 10, 10 ]
   });
 
-  var markerOrange = L.divIcon({
-    className: 'marker-orange', 
-    iconSize: '60px'
+  var markerOrange = L.icon({
+    iconUrl: '../img/marker-orange-x2.png',
+    iconSize: [ 10, 10 ]
   });
 
-  var markerRed = L.divIcon({
-    className: 'marker-red',
-    iconSize: '60px'
+  var markerRed = L.icon({
+    iconUrl: '../img/marker-red-x2.png',
+    iconSize: [ 10, 10 ]
   });
+
   // you can set .my-div-icon styles in CSS
 
   L.marker([52, -1], {icon: markerGreen}).addTo(map);
