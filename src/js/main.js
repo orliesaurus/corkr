@@ -1,6 +1,6 @@
 window.setGauge = function (score) {
   Gauge.Collection.get('gauge').setValue(parseInt(score));
-}
+};
 
 $( document ).ready( function() {
 
@@ -81,7 +81,6 @@ $( document ).ready( function() {
           L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:score, cData:color, url:url}).on('click',wantInfo).addTo(map);
 
         }
-
       }
 
     });
@@ -103,13 +102,14 @@ $( document ).ready( function() {
     window.setGauge(score);
 
     if (! $( '.item-info' ).hasClass( 'active' ) ){
-      $( '.item-info' ).toggleClass( 'active' );
+      $( '.item-info' ).addClass( 'active' );
     }
     else  {
       $( '.item-info' ).removeClass( 'active' );
 
       $(".item-info").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
         $( '.item-info' ).addClass( 'active' );
+        $(".item-info").unbind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd");
       });
     }
   }
