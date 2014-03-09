@@ -1,13 +1,7 @@
-Corkr - Plugging The Government's Digital Holes 
-===============================================
+# Corkr - Plugging The Government's Digital Holes 
+### by Terence Eden, Mark Durrant, Marcello Seri, Orlando Kalossakas
 
-by Terence Eden, Mark Durrant, Marcello Seri, Orlando Kalossakas
-===============================================
-===============================================
-
-Security holes are prevalent in .gov.uk and .nhs.uk websites. We've mapped the sites, and given security scores to each of them.
-
-- - - - - -
+**Security holes are prevalent in .gov.uk and .nhs.uk websites. We've mapped the sites, and given security scores to each of them.**
 
 O. H. M. G! Like! The Government’s websites are totally full of holes! For *real* you guys!
 
