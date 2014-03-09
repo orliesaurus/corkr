@@ -2,7 +2,7 @@ $( document ).ready( function() {
 
   $( '.info-btn' ).click( function() {
     $( '.app-header' ).toggleClass( 'active' );
-  });
+  });  
 
   // just so I can trigger bottom panel
   $( '.header-logo' ).click( function() {
