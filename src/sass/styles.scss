@@ -33,6 +33,10 @@
 
 // DEV STYLES - refactor later
 //===============================================================================
+body{
+  background-color: $ink-secondary;
+}
+
 .map-frame {
   position: absolute;
 }
