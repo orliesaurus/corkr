@@ -42,14 +42,22 @@ def get_plugin_hash(infos)
 	infos[0] = "name: " + infos[0]
 
 	plugin = {}
+	plugin["warning".to_sym] = {}
+	score = 0
 
 	infos.each { |info|
-		name, content = info.match(/^([A-Za-z\-\.\s]*):(.*)/).captures
+		warn, name, content = info.match(/^(@)?([@A-Za-z\-\.\s]*):(.*)/).captures
+		score += 1 if warn
+
 		name = name.downcase.strip
-		add_to_data(plugin, name, content.strip)
+		if ["name", "location"].include?(name)
+			add_to_data(plugin, name, content.strip) 
+		else
+			plugin["warning".to_sym][name.gsub(/\s+/,'_').to_sym] = content.strip
+		end
 	}
 
-	return plugin
+	return plugin, score
 end
 
 def parse_wp_vulnerability(output, information)
@@ -70,7 +78,9 @@ def parse_plugin_vulnerability(output, information)
 	plugins.each { |plugin|
 		plugin_data = plugin.split(/\n\|\n/)
 
-		plugin_hash = get_plugin_hash(plugin_data[0])
+		plugin_hash, score = get_plugin_hash(plugin_data[0])
+		output[:score] += score if score != 0
+
 		plugin_data.delete_at(0)
 
 		plugin_vulnerability = []
@@ -78,7 +88,7 @@ def parse_plugin_vulnerability(output, information)
 		plugin_data.each{ |problem|
 			infos = problem.split(/\|\*/)
 			infos.delete_at(0)
-			
+
 			if infos
 				vuln = get_vuln_hash(infos)
 
@@ -154,7 +164,11 @@ data = []
 fileData.each { |line|
 	line = line.gsub(/\x1B\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]/,'')
 
-	if content = line[/^(\[[+!]\]|\s\|)\s(.*)/,2]
+	if content = line[/^(\s\|\s)?(\[[+!]\]|\s\|)\s(.*)/,3]
+		if line[/^(\s\|\s)?(\[[+!]\]|\s\|)\s(.*)/,1]
+			content = '@' + content
+			puts content
+		end
 		data << line[1] + content
 	end
 }
