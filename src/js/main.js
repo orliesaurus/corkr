@@ -6,13 +6,7 @@ $( document ).ready( function() {
     }
   });
 
-  var map = L.map('map', {
-    zoomControl: false,
-    minZoom: 5,
-    attributionControl: false
-  }).setView([54.5, -3], 6);
-
-  L.tileLayer('https://{s}.tiles.mapbox.com/v3/m6-d6.hfccch9n/{z}/{x}/{y}.png', {}).addTo(map);
+  var map; // = undefined;
 
   var markerGreen = L.icon({
     iconUrl: 'img/marker-green-x2.png',
@@ -29,36 +23,55 @@ $( document ).ready( function() {
     iconSize: [ 10, 10 ]
   });
 
-  // you can set .my-div-icon styles in CSS
+  loadJSONData("js/pretty.json");
 
-  $.getJSON( "js/pretty.json", function( data ) {
+  function loadJSONData( fileName ) {
 
-    for(var i=0; i<data.length; i++)
-    {
-      //latlong = [data[i].latlong].pop();
-      ll = data[i].latlong;
-      latlong = ll.split(',');
-      //console.log(latlong);
-      name = data[i].name;
-      score = data[i].score;
-      url = data[i].url;
-
-      if (score == 0)
-      {
-        thisMarker = markerGreen;
-        color = 'green'
-      } else if (score < 6)
-      {
-        thisMarker = markerOrange;
-        color = 'orange'
-      } else{
-        thisMarker = markerRed;
-        color = 'red'
-      }
-      L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:color, url:url}).on('click',wantInfo).addTo(map);
-
+    if (map !== undefined) {
+      map.remove();
     }
-  });
+
+    map = L.map('map', {
+      zoomControl: false,
+      minZoom: 5,
+      attributionControl: false
+    }).setView([54.5, -3], 6);
+
+    L.tileLayer('https://{s}.tiles.mapbox.com/v3/m6-d6.hfccch9n/{z}/{x}/{y}.png', {}).addTo(map);
+
+    $.getJSON( fileName, function( data ) {
+
+      for(var i=0; i<data.length; i++)
+      {
+        //latlong = [data[i].latlong].pop();
+        ll = data[i].latlong;
+        
+        if (ll != null) {
+          latlong = ll.split(',');
+          //console.log(latlong);
+          name = data[i].name;
+          score = data[i].score;
+          url = data[i].url;
+
+          if (score === 0)
+          {
+            thisMarker = markerGreen;
+            color = 'green';
+          } else if (score < 6)
+          {
+            thisMarker = markerOrange;
+            color = 'orange';
+          } else{
+            thisMarker = markerRed;
+            color = 'red';
+          }
+          L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:color, url:url}).on('click',wantInfo).addTo(map);
+
+        }
+      }
+
+    });
+  }
 
   function wantInfo(e) {
     dataSource = e.target.options;
@@ -77,6 +90,10 @@ $( document ).ready( function() {
     }
 
   }
+
+//  $( '.info-btn' ).click( function() {
+//    loadJSONData("js/nhs.json");
+//  });
 
 
   var Gauge = new Gauge({ renderTo: 'gauge' });
