@@ -11,6 +11,7 @@ $( document ).ready( function() {
 
   var map = L.map('map', {
     zoomControl: false,
+    minZoom: 5,
     attributionControl: false
   }).setView([51.505, -0.09], 5);
 

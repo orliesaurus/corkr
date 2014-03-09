@@ -90,7 +90,7 @@
 }
 
 .info-btn {
-  background-color: mix( $paper, $ink-secondary, 85 );
+  background-color: mix( $paper, $ink-secondary, 75 );
   background-image: url('../img/info-x2.png');
   background-repeat: no-repeat;
   background-size: 1.5rem 1.5rem;
@@ -103,7 +103,7 @@
   transition: background-color 0.25s;
 
   &:hover {
-    background-color: mix( $paper, $ink-secondary, 75 );   
+    background-color: mix( $paper, $ink-secondary, 65 );   
   }
 }
 
