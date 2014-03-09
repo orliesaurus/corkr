@@ -33,6 +33,10 @@
 
 // DEV STYLES - refactor later
 //===============================================================================
+body{
+  background-color: $ink-secondary;
+}
+
 .map-frame {
   position: absolute;
 }
@@ -285,4 +289,11 @@
 
 .marker-red {
   background-image: url('../img/marker-red-x2.png');
+}
+
+#gauge {
+  background-color: hsl( 220, 100, 90 );
+  position: absolute;
+  top: 0;
+  right: 0;
 }
