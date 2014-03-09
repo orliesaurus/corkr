@@ -54,17 +54,17 @@ $( document ).ready( function() {
       score = data[i].score;
       url = data[i].url;
 
-      if (score == 0)
+      if (score === 0)
       {
         thisMarker = markerGreen;
-        color = 'green'
+        color = 'green';
       } else if (score < 6)
       {
         thisMarker = markerOrange;
-        color = 'orange'
+        color = 'orange';
       } else{
         thisMarker = markerRed;
-        color = 'red'
+        color = 'red';
       }
       L.marker(latlong, {riseOnHover:'true',title:name,icon: thisMarker, score:color, url:url}).on('click',wantInfo).addTo(map);
 
@@ -86,7 +86,13 @@ $( document ).ready( function() {
     if (! $( '.item-info' ).hasClass( 'active' ) ){
       $( '.item-info' ).toggleClass( 'active' );
     }
+    else  {
+      $( '.item-info' ).removeClass( 'active' );
 
+      $(".item-info").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+        $( '.item-info' ).addClass( 'active' );
+      });
+    }
   }
 
 
